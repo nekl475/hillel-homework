@@ -1,0 +1,51 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+}
+
+body {
+    padding-left: 100px;
+}
+
+.wrapper {
+    width: 442px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wrapper>div {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+div.red {
+    background-color: red;
+}
+
+div.orange {
+    background-color: orange;
+}
+
+div.yellow {
+    background-color: yellow;
+}
+
+div.green {
+    background-color: green;
+}
+
+div.blue {
+    background-color: rgb(43, 169, 219);
+}
+
+div.indigo {
+    background-color: rgb(42, 29, 216);
+}
+
+div.violet {
+    background-color: rgb(134, 13, 134);
+}
